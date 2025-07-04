@@ -9,23 +9,28 @@ The dataset contains all available matches that can be extracted using the `stat
 
 ---
 
+## 📚 Match Analysis Dashboard
+
 <p align="center"> 
   <img src="images/shot_map.png" alt="Shot Map" width="600"/> <br> 
-  <em>Match Analysis Dashboard.</em> 
+  <em>Analyze chance quality, shooting efficiency, and xG dynamics in a selected match.</em> 
 </p>
 
-The main element of this dashboard is a **shot map** visualizing shooting locations and corresponding xG (Expected Goals) values — the larger the circle, the higher the xG value. If the circle is filled, it indicates that the shot resulted in a goal. The home team's shots are displayed on the left, and the away team's on the right.  
+The main element of this dashboard is a **shot map** visualizing shooting locations and corresponding xG (Expected Goals) values - the larger the circle, the higher the xG value. If the circle is filled, it indicates that the shot resulted in a goal. The home team's shots are displayed on the left, and the away team's on the right.   
+   
 To the right of the shot map, you can find interactive filters to select the match of interest. Next to that, two key indicators display the **highest xG value for a single chance** and the **longest shot distance** in the selected match. At the bottom, an xG timeline shows how cumulative xG evolved throughout the game.
 
 ---
 
+## 📚 Scouting Support Dashboard
+
 <p align="center"> 
   <img src="images/scouting_panel.png" alt="Scouting Panel" width="600"/> <br> 
-  <em>Scouting Support Dashboard.</em> 
+  <em>Designed to support scouts in evaluating player finishing, set-piece efficiency, and xG overperformance.</em> 
 </p>
 
 This dashboard focuses on scouting insights. The goal map visualizes the shot locations and outcomes for selected players, making it easy to assess finishing tendencies. Below the map, filters allow you to select one or multiple players.  
-The accompanying table highlights the most prolific **first goal scorers** — players with the highest number of opening goals in matches.  
+The accompanying table highlights the most prolific **first goal scorers** - players with the highest number of opening goals in matches.  
 On the right, you'll find two charts:
 - **Top headers scorers from set-pieces** (corners and free kicks),
 - **Best overperformers**, i.e., players with the largest positive difference between actual goals scored and their xG.
@@ -40,6 +45,7 @@ The football goal illustration used in the scouting dashboard originates from **
 ### ✅ Tools & Technologies
 - Power BI
 - Python (`statsbombpy` library)
+- Jupyter notebook
 - Figma (dashboard design)
 - StatsBomb Open Data
 - Wyscout (visual elements)
@@ -49,7 +55,7 @@ The football goal illustration used in the scouting dashboard originates from **
 `powerbi_dashboards/`  
 `├── README.md`  
 `├── data_preparation.ipynb`  
-`├── powerbi_dataset.csv` 
+`├── powerbi_dataset.csv`  
 `├── football_dashboard.pbix`   
 `├── images/`  
 `│     ├── canva_shot_map.png`  
