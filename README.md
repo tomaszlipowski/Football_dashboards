@@ -1,8 +1,6 @@
 # 🗺️ Power BI Dashboards
 
-This repository contains two interactive football dashboards included in the `football_dashboard.pbix` file. You can explore them and experiment with filters and views under the following link:
-
-- 🔗 [Interactive dashboards](https://app.powerbi.com/links/k_5fvMuR2I?ctid=73689ee1-b42f-4e25-a5f6-66d1f29bc092&pbi_source=linkShare)
+This repository contains two interactive football dashboards included in the `football_dashboard.pbix` file. You can download them and explore interactively using filters and custom views:
 
 The dataset powering these dashboards (`powerbi.csv`) is available directly in this repository. Alternatively, you can generate it by setting the `powerbi` flag to `True` at the beginning of the `data_preparation.ipynb` script.  
 The dataset contains all available matches that can be extracted using the `statsbombpy` Python library.
